@@ -70,7 +70,8 @@
     <gap:plugin name="com-sarriaroman-photoviewer" source="npm"  /> 
     
     <!--REMOVE cordova-plugin-statusbar WHEN COMPILING TO IOS-->
-    <gap:plugin name="cordova-plugin-statusbar" source="npm"  /> 
+   !-- <gap:plugin name="cordova-plugin-statusbar" source="npm"  /> -->
+
     
     
     <!--END PLUGIN-->
@@ -103,7 +104,7 @@
 	</edit-config>
 	
 	<edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>This allows us to use your location to find restaurant nearby.</string>
+	    <string>This allows us to use your location to find supermarket nearby.</string>
 	</edit-config>
 	
 	<edit-config target="NSLocationAlwaysAndWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
@@ -111,7 +112,7 @@
 	</edit-config>
 	
 	<edit-config target="NSLocationAlwaysUsageDescription" file="*-Info.plist" mode="merge">
-	    <string>This allows us to use your location to find restaurant nearby.</string>
+	    <string>This allows us to use your location to find supermarket nearby.</string>
 	</edit-config>
 	
 	<edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
@@ -123,11 +124,11 @@
     </edit-config>        
     
     <edit-config target="NSBluetoothAlwaysUsageDescription" file="*-Info.plist" mode="merge">
-      <string>This allows us to facilitate more restaurant</string>
+      <string>This allows us to facilitate more supermarket</string>
     </edit-config>  
     
     <edit-config target="NSBluetoothPeripheralUsageDescription" file="*-Info.plist" mode="merge">
-      <string>Improve location accuracy when finding nearby restaurant</string>
+      <string>Improve location accuracy when finding nearby supermarket</string>
     </edit-config>  
     
 	<platform name="android">
